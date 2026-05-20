@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-cream-50 dark:bg-ink-900 text-ink-900 dark:text-cream-50 font-sans transition-colors duration-300; }
+}
+
+@layer utilities {
+  .profile-ring {
+    animation: spin-ring 14s linear infinite;
+  }
+  @keyframes spin-ring {
+    to { transform: rotate(360deg); }
+  }
+  .fade-up {
+    animation: fade-up 0.7s ease forwards;
+  }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .scroll-bounce {
+    animation: scroll-b 2s ease-in-out infinite;
+  }
+  @keyframes scroll-b {
+    0%,100% { transform: translateX(-50%) translateY(0); }
+    50%      { transform: translateX(-50%) translateY(8px); }
+  }
+}
