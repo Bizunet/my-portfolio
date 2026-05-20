@@ -123,7 +123,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* ── LOGOS & BRANDING ── */}
+        {/* ── LOGO & BRANDING ── */}
         <div className="mt-24">
           <SectionLabel
             tag="Category 03"
