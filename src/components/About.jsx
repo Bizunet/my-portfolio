@@ -14,12 +14,12 @@ export default function About() {
           <div className="w-12 h-0.5 bg-gradient-to-r from-amber to-crimson mb-6" />
 
           <p className="text-ink-600/70 dark:text-cream-200/60 text-[15px] leading-relaxed mb-4">
-            I'm a graphic designer based in Dire Dawa, Ethiopia — creating visual work
+            I'm a graphic designer based in Addis Ababa, Ethiopia — creating visual work
             rooted in culture, faith, and community. From bold event posters to clean brand
             identities, I bring ideas to life with intention and purpose.
           </p>
           <p className="text-ink-600/70 dark:text-cream-200/60 text-[15px] leading-relaxed mb-8">
-            My work spans DDUECSF event design, music concert branding, commercial
+            My work spans event design, music concert branding, commercial
             advertising, and logo creation for local businesses — always blending
             contemporary design with Ethiopic identity and heritage.
           </p>

@@ -34,9 +34,12 @@ export default function Hero() {
           <img src="/images/profile.jpg" alt="Designer" className="w-full h-full object-cover object-top" />
         </div>
       </div>
+      <h1 className="reveal opacity-0 font-display text-[clamp(64px,10vw,110px)] leading-[0.88] tracking-wide mb-2">
+        BIZUNEH SODE
+      </h1>
 
       <p className="reveal opacity-0 text-[10px] tracking-[5px] uppercase text-amber mb-3">
-        Graphic Designer · Dire Dawa, Ethiopia
+        Graphic Designer · Addis Ababa, Ethiopia
       </p>
 
       <h1 className="reveal opacity-0 font-display text-[clamp(64px,10vw,110px)] leading-[0.88] tracking-wide mb-2">
