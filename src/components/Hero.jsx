@@ -34,7 +34,7 @@ export default function Hero() {
           <img src="/images/profile.jpg" alt="Designer" className="w-full h-full object-cover object-top" />
         </div>
       </div>
-      <h1 className="reveal opacity-0 font-display text-[clamp(64px,10vw,110px)] leading-[0.88] tracking-wide mb-2">
+      <h1 className="reveal opacity-0 font-display text-[clamp(30px,10vw,80px)] leading-[0.88] tracking-wide mb-2">
         BIZUNEH SODE
       </h1>
 
