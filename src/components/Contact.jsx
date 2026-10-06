@@ -87,7 +87,7 @@ export default function Contact() {
                 {
                   icon: <MapPin size={15} />,
                   label: "Location",
-                  value: "Dire Dawa, Ethiopia",
+                  value: "Addis Ababa, Ethiopia",
                 },
                 {
                   icon: <Mail size={15} />,
@@ -97,7 +97,7 @@ export default function Contact() {
                 {
                   icon: <MessageCircle size={15} />,
                   label: "Telegram",
-                  value: "@your_telegram",
+                  value: "@bizunet",
                 },
               ].map((r) => (
                 <div
